@@ -1,0 +1,27 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100%;
+    width: 100%;
+    background-image: url(images/bass-guitar-1841186_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bloc-ecole {
+    height: 200px;;
+    width: 445px;
+    border: 1px solid white;
+    color: white;
+
+}
+
+section {
+    height: 100%;
+    width: 100%;
+}
