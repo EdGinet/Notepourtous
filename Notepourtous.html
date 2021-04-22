@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
         <title>Une Note pour tous</title>
     </head>
     <body>
@@ -68,29 +68,39 @@
         </section>
         <section id="cours">
             <h1 class="d-flex justify-content-center pt-5">NOS COURS</h1>
-            <div class="lessons">
-                
-                    <div class="cours-indi">
-                        <h3 class="d-flex justify-content-center">Cours Individuels</h3>
-                        <p>
-                            Pratiquez individuellement l'instrument qui vous correspond
-                        </p>
-                        <p>
-                            <i>Piano Jazz et Improvisation, Piano Classique, Guitare Rock, Guitare Classique, Guitare Jazz, Batterie, Chant Moderne, Guitare Basse, Contrebasse, Saxophone, Violon, Flûte Traversière, Balafon Africain, Congas/Cajon, M.A.O</i>
-                        </p>
-                        <button>En savoir plus</button>
+            <div class="h-100 container-fluid">
+                <div class="h-100 row align-items-center justify-content-center">
+                    <div class="col-4">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h3 class="card-title d-flex justify-content-center">Cours Individuels</h3>
+                                <h6 class="card-title">
+                                    Pratiquez individuellement l'instrument qui vous correspond
+                                </h6>
+                                
+                                <p>
+                                    <i>Piano Jazz et Improvisation, Piano Classique, Guitare Rock, Guitare Classique, Guitare Jazz, Batterie, Chant Moderne, Guitare Basse, Contrebasse, Saxophone, Violon, Flûte Traversière, Balafon Africain, Congas/Cajon, M.A.O</i>
+                                </p>
+                                <a class="btn btn-outline-light" href="#" role="button">En savoir plus</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="cours-coll">
-                        <h3 class="d-flex justify-content-center">Cours Collectifs</h3>
-                        <p>
-                            Développez vos talents en groupe
-                        </p>
-                        <p>
-                            <i>Groupe Pop/Rock/Jazz Ado ou Adulte, Choral Moderne, Chorale Classique, Chorale d'Enfants, Ateliers Jembé, Éveil Musical (4-6 ans), Initiation Découverte (6-7 ans), Atelier Solfège, Percussions Africaines (jembés, congas etc...), Percussions Brésiliennes</i>
-                        </p>
-                        <button>En savoir plus</button>
-                    </div>
-                
+                    <div class="col-4">                       
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h3 class="card-title d-flex justify-content-center">Cours Collectifs</h3>
+                                <h6 class="card-title">
+                                    Développez vos talents en groupe
+                                </h6>
+                                
+                                <p>
+                                    <i>Groupe Pop/Rock/Jazz Ado ou Adulte, Choral Moderne, Chorale Classique, Chorale d'Enfants, Ateliers Jembé, Éveil Musical (4-6 ans), Initiation Découverte (6-7 ans), Atelier Solfège, Percussions Africaines (jembés, congas etc...), Percussions Brésiliennes</i>
+                                </p>
+                                <a class="btn btn-outline-light" href="#" role="button">En savoir plus</a>
+                            </div>
+                        </div>
+                    </div>        
+                </div>
             </div>
         </section>
         <section id="contact">
@@ -112,7 +122,7 @@
                     <label for="message">Message</label>
                     <textarea rows="10" id="message" name="message" required></textarea>
 
-                    <button classs="send-button" id="submit" type="submit">Envoyer</button>
+                    <button class="send-button" id="submit" type="submit">Envoyer</button>
                 </form>
             </div>
         </section>
