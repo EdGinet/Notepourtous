@@ -9,38 +9,58 @@
     </head>
     <body>
         <header>
-           <nav class="navbar navbar-dark bg-dark navbar-expand-lg d-flex justify-content-evenly">
-                <a href="#" class="navbar-brand">
-                    <h1 class="d-flex align-items-center">Une Note Pour Tous</h1>
-                </a>
-                <a href="#" class="navbar-brand">
-                    <img src="images/logo.png" alt="logo" width="145" height="100">
-                </a>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">ACCUEIL</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">COURS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">TARIFS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">ÉQUIPE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">ACTUALITÉS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">CONTACT</a></li>
-                </ul>
-           </nav>
-            <div id="bloc-ecole">
-                <h2>École de Musique</h2>
-                <h3>Ville 1 & Ville 2</h3>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid d-flex justify-content-around">
+                    <h1 class="d-flex align-items-center">
+                      <a class="navbar-brand" href="#">Une Note Pour Tous</a>
+                    </h1>
+
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="logo" width="145" height="100">
+                    </a>
+
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#NavbarNavDropdown" aria-controls="NavbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="NavbarNavDropdown">
+                    <ul class="navbar-nav d-inline-flex justify-content-center">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-uppercase">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-uppercase">Cours</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-uppercase">Tarifs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-uppercase">Équipe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-uppercase">Actualités</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-uppercase">Contact</a>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            
+
+            <div class="h-100 container-fluid d-flex  justify-content-center">
+                <div class="row">
+                    <div class="col-12 mb-3 d-flex align-items-end">
+                        <div class="mb-5 p-3 border border-3 border-light d-flex flex-column justify-content-center">
+                            <h2 class="fs-2 mb-3 pb-3 border-bottom border-light">École de Musique</h2>
+
+                            <h3 class="fs-4 text-center">Poicourt & Montolet</h3>
+                        </div>
+                    </div>
+                </div>
             </div>
         </header>
+        
         <section id="story">
             <h1 class="d-flex justify-content-center pt-5">NOTRE HISTOIRE</h1>
             <div class="d-flex flex-column align-items-center m-auto">
@@ -70,71 +90,88 @@
             <h1 class="d-flex justify-content-center pt-5">NOS COURS</h1>
             <div class="h-100 container-fluid">
                 <div class="h-100 row align-items-center justify-content-center">
-                    <div class="col-4">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <h3 class="card-title d-flex justify-content-center">Cours Individuels</h3>
-                                <h6 class="card-title">
-                                    Pratiquez individuellement l'instrument qui vous correspond
-                                </h6>
-                                
-                                <p>
-                                    <i>Piano Jazz et Improvisation, Piano Classique, Guitare Rock, Guitare Classique, Guitare Jazz, Batterie, Chant Moderne, Guitare Basse, Contrebasse, Saxophone, Violon, Flûte Traversière, Balafon Africain, Congas/Cajon, M.A.O</i>
-                                </p>
-                                <a class="btn btn-outline-light" href="#" role="button">En savoir plus</a>
+                    <div class="card-group d-flex justify-content-around">
+                        <div class="col-4">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h3 class="card-title d-flex justify-content-center fs-2">Cours Individuels</h3>
+                                    <h6 class="card-title">
+                                        Pratiquez individuellement l'instrument qui vous correspond
+                                    </h6>
+                                    
+                                    <p>
+                                        <i>Piano Jazz et Improvisation, Piano Classique, Guitare Rock, Guitare Classique, Guitare Jazz, Batterie, Chant Moderne, Guitare Basse, Contrebasse, Saxophone, Violon, Flûte Traversière, Balafon Africain, Congas/Cajon, M.A.O</i>
+                                    </p>
+                                    <a class="btn btn-outline-light" href="#" role="button">En savoir plus</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-4">                       
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <h3 class="card-title d-flex justify-content-center">Cours Collectifs</h3>
-                                <h6 class="card-title">
-                                    Développez vos talents en groupe
-                                </h6>
-                                
-                                <p>
-                                    <i>Groupe Pop/Rock/Jazz Ado ou Adulte, Choral Moderne, Chorale Classique, Chorale d'Enfants, Ateliers Jembé, Éveil Musical (4-6 ans), Initiation Découverte (6-7 ans), Atelier Solfège, Percussions Africaines (jembés, congas etc...), Percussions Brésiliennes</i>
-                                </p>
-                                <a class="btn btn-outline-light" href="#" role="button">En savoir plus</a>
+                    
+                        <div class="col-4">                   
+                            <div class="h-100 card text-center">
+                                <div class="card-body">
+                                    <h3 class="card-title d-flex justify-content-center fs-2">
+                                        Cours Collectifs
+                                    </h3>
+                                    <h6 class="card-title">
+                                        Développez vos talents en groupe
+                                    </h6>
+                                    
+                                    <p>
+                                        <i>Groupe Pop/Rock/Jazz Ado ou Adulte, Choral Moderne, Chorale Classique, Chorale d'Enfants, Ateliers Jembé, Éveil Musical (4-6 ans), Initiation Découverte (6-7 ans), Atelier Solfège, Percussions Africaines (jembés, congas etc...), Percussions Brésiliennes</i>
+                                    </p>
+                                    <a class="btn btn-outline-light" href="#" role="button">En savoir plus</a>
+                                </div>
                             </div>
-                        </div>
+                        </div>    
                     </div>        
                 </div>
             </div>
         </section>
         <section id="contact">
-            <h1>CONTACT</h1>
-            <div class="contact-form">
-                <form class="form-message" method="post" action="contact.php">
-                    <label for="name">Nom</label>
-                    <input type="text" id="name" placeholder="Votre nom" name="name" required>
-
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email" placeholder="email@email.com" name="email" required>
-
-                    <label for="phone">Téléphone</label>
-                    <input type="tel" id="phone" placeholder="01 23 45 67 89" name="phone">
-
-                    <label for="subject">Sujet</label>
-                    <input type="text" id="subject" placeholder="Sujet" name="subject">
-
-                    <label for="message">Message</label>
-                    <textarea rows="10" id="message" name="message" required></textarea>
-
-                    <button class="send-button" id="submit" type="submit">Envoyer</button>
-                </form>
+            <h1 class="d-flex justify-content-center pt-5">CONTACT</h1>
+            <div class="container-fluid mt-5">
+                <div class="row justify-content-center">
+                    <div class="col-5">
+                        <form method="post" action="contact.php">
+                            <div class="form-group mb-3">
+                                <label for="name">Nom</label>
+                                <input type="text" class="form-control" id="name" placeholder="Votre nom" name="name" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="email">E-mail</label>
+                                <input type="email" class="form-control" id="email" placeholder="email@email.com" name="email" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="phone">Téléphone</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="01 23 45 67 89" name="phone">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="subject">Sujet</label>
+                                <input type="text" class="form-control" id="subject" placeholder="Sujet" name="subject">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="message">Message</label>
+                                <textarea rows="5" class="form-control" id="message" name="message" required></textarea>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button type="submit" class="btn btn-outline-light" id="submit">Envoyer</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
+                 
+                <div class="h-100 container-fluid d-flex justify-content-center align-items-center mt-5">
+                    <p class="text-center">
+                        Téléphone : <span>01 23 45 67 89</span><br />
+                        E-mail : <span>bernardmartin@email.com</span><br />
+                        Site web : <span>www.unenotepourtous.fr</span><br />
+                        Facebook: <span>Une Note Pour Tous - École de Musique</span><br />
+                        Adresse : <span>1 Av de la République - 96000 Poicourt</span>
+                    </p>
+                </div>       
         </section>
-        <footer>
-            <p>
-                Téléphone : 01 23 45 67 89<br />
-                E-mail : bernardmartin@email.com<br />
-                Site web : www.unenotepourtous.fr<br />
-                Facebook: Une Note Pour Tous - École de Musique<br />
-                Adresse : 1 Av de la République - 96000 Ville 1
-            </p>
-        </footer>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
     </body>
