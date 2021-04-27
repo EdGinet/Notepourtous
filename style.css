@@ -13,26 +13,25 @@ header {
     background-size: cover;
 }
 
-
-
 section {
     height: 100%;
+    width: 100%;
 }
 
 #story {
-    background-color: rgb(59, 57, 61);  
+    background-color: rgb(59, 57, 61); 
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+
 }
 
 h1 {
     color: rgb(201, 198, 204);
 }
 
-.text {
-    font-size: 1.4vw;
+
+p {
     color: rgb(175, 170, 181);
-    width: 70vw;
 }
 
 strong {
@@ -46,7 +45,6 @@ strong {
 }
 
 .card-body > p > i {
-    font-size: 1.2em;
     color: rgb(240, 139, 24);
 }
 
@@ -56,10 +54,10 @@ strong {
 }
 
 .card {
-    background-color: rgba(59, 57, 61, 0.7);
+    background-color: rgba(59, 57, 61, 0.6);
 }
 
-h2, h3, h6 {
+h2, h3, h5 {
     color: white;
     font-size: 1.4em;
 }
@@ -71,6 +69,22 @@ h2, h3, h6 {
     flex-direction: column;
 }
 
+#coordonnees {
+    color: rgb(240, 139, 24);
+}
+
 span {
     color: rgb(201, 198, 204);
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+
+@media only screen and (max-width: 375px) {
+    body {
+        font-size: 0.9em;
+    }
+
 }
