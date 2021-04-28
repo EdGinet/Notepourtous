@@ -16,6 +16,8 @@ header {
 section {
     height: 100%;
     width: 100%;
+    min-height: 100%;
+    max-height: 100%;
 }
 
 #story {
@@ -59,7 +61,7 @@ strong {
 
 h2, h3, h5 {
     color: white;
-    font-size: 1.4em;
+    font-size: 1.4rem;
 }
 
 #contact {
@@ -84,7 +86,7 @@ span {
 
 @media only screen and (max-width: 375px) {
     body {
-        font-size: 0.9em;
+        font-size: 0.9rem;
     }
 
 }
