@@ -38,7 +38,6 @@ strong {
 }
 
 #cours {
-    min-height: 100%;
     background-image: url(images/lesson.jpg);
     background-repeat: no-repeat;
     background-size: cover;
