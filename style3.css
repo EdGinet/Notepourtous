@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0)
+        ),
+        url(images/musicsheet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+h1 {
+    color: white;
+}
+
+thead > tr > th {
+    color: rgb(240, 139, 24);
+}
+
+tbody > tr > th {
+    color: rgb(199, 192, 202);
+}
+
+p {
+    color: rgb(213, 206, 216);
+}
